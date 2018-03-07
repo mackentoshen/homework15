@@ -1,0 +1,67 @@
+.Login-Wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.Login-Title {
+    font-size: 38px;
+    font-weight: 300;
+    color: #8492af;
+    margin-bottom: 40px;
+}
+
+.Login-Title span {
+    color: #5384ff;
+}
+
+.Login-Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LoginField{
+    position: relative;
+    max-width: 576px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #d4d9e3;
+    font-size: 18px;
+    color:#8492af;
+    font-weight: 400;
+    background: url("../../../assets/img/icon-user-form.png") no-repeat;
+    background-position-x:8px;
+    padding: 10px 0 10px 70px;
+    margin-bottom: 56px;
+}
+
+.LoginField::before{
+    position: absolute;
+    content: '';
+    background: url("../../../assets/img/icon-user-form.png") no-repeat;
+    width: 28px;
+    height:26px;
+    top:50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+
+.PasswordField{
+    position: relative;
+    max-width: 576px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #d4d9e3;
+    font-size: 18px;
+    color:#8492af;
+    font-weight: 400;
+    background: url("../../../assets/img/icon-pass-lock.png") no-repeat;
+    background-position-x:8px;
+    padding: 10px 0 10px 70px;
+    margin-bottom: 40px;
+}

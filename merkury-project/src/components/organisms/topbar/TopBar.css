@@ -1,0 +1,120 @@
+.TopNavMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid rgba(132, 146, 175, 0.3);
+}
+
+.FlexWrapCenter{
+    display: flex;
+    align-items: center;
+}
+
+.LeftColumn {
+    margin-left: 355px;
+}
+
+.RightColumn {
+    margin-right: 50px;
+}
+
+
+.Logo {
+    position: fixed;
+    background: #1c1839;
+    width: 320px;
+    height: inherit;
+    margin-right: 50px;
+    padding: 34px 0;
+    display: flex;
+    align-items: center;
+}
+
+.Logo img {
+    margin: 0 auto 0 40px;
+}
+
+.BurgerButton {
+    position: relative;
+    width: 26px;
+    height: 20px;
+    background-color: transparent;
+    background: url(../../../assets/img/burger-menu.png) no-repeat;
+    border: none;
+    margin-right: 35px;
+}
+
+.BurgerButton::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 12px;
+    background: url(../../../assets/img/icon-left.png) no-repeat;
+}
+
+.MessagesIcon {
+    font-family: 'FontAwesome' , sans-serif;
+    position: relative;
+    display: inline-block;
+    font-size: 28px;
+    text-decoration: none;
+    color: #0e1a35;
+    transition: all 1.2s;
+    margin-right: 30px;
+}
+
+.MessagesIcon:hover {
+    transform: scale(1.2);
+    color: #5584ff;
+}
+
+.Notification {
+    font-family: 'FontAwesome' , sans-serif;
+    position: relative;
+    display: inline-block;
+    font-size: 28px;
+    margin-right: 45px;
+    text-decoration: none;
+    color: #0e1a35;
+    transition: all 1.2s;
+}
+
+.Notification::after {
+    position: absolute;
+    display: block;
+    content: "3";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #5584ff;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    font: 500 12px/16px 'Roboto', sans-serif;
+    top: -20%;
+    right: -30%;
+}
+.Notification:hover {
+    color: #5584ff;
+    transform:scale(1.2);
+}
+
+
+.UserMenu {
+    display: flex;
+    align-items: center;
+}
+
+.DropButton {
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    background: url(../../../assets/img/icon-down.png) no-repeat;
+    border: none;
+}

@@ -1,0 +1,6 @@
+.ButtonSearch {
+    width: 24px;
+    height: 24px;
+    background: url(../../../assets/img/search-icon.png) no-repeat;
+    border: none;
+}

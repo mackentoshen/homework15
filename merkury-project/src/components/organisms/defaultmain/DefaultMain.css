@@ -1,0 +1,22 @@
+.Section-Title{
+    font:400 48px "Roboto";
+    color:#0e1a35;
+}
+
+.Section-Wrap {
+    padding: 50px 45px 100px 45px;
+    background: #f6f7fa;
+    max-width: 100%;
+    width: calc(100vw - 427px);
+    min-height: calc( 100vh - 271px);
+    margin-left: 320px;
+}
+
+.FlexWrap {
+    display: flex;
+}
+
+.FlexWrapCenter{
+    display: flex;
+    align-items: center;
+}

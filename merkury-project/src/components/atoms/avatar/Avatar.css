@@ -1,0 +1,12 @@
+.AvatarWrap {
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background: #0e1a35;
+    overflow: hidden;
+    margin-right: 9px;
+}
+
+.AvatarWrap img{
+    width: 100%;
+}

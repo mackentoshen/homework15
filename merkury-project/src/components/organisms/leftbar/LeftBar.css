@@ -1,0 +1,99 @@
+.LeftBarMenu {
+    position: fixed;
+    background: #1c1839;
+    min-height: calc(100vh - 121px);
+    max-width: 320px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.LeftBarNav li {
+    padding: 40px 0 40px 40px;
+    border-top: 1px solid #0b0a10;
+    position: relative;
+
+}
+
+.LeftBarNav li:last-child {
+    border-bottom: 1px solid #0b0a10;
+}
+
+.LeftBarNav li:hover {
+    background: #122143;
+
+}
+
+.LeftBarNav a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+.Home::before {
+    content: "";
+    display: inline-block;
+    height: 21px;
+    width: 24px;
+    background: url(../../../assets/img/icon-home.png) no-repeat;
+    margin-right: 10px;
+}
+
+.Workflow::before {
+    content: "";
+    display: inline-block;
+    height: 19px;
+    width: 20px;
+    background: url(../../../assets/img/icon-workflow.png) no-repeat;
+    margin-right: 10px;
+}
+
+.Statistics::before {
+    content: "";
+    display: inline-block;
+    height: 22px;
+    width: 24px;
+    background: url(../../../assets/img/icon-statistics.png) no-repeat;
+    margin-right: 10px;
+}
+
+.Calendar::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(../../../assets/img/icon-calendar.png) no-repeat;
+    margin-right: 10px;
+}
+
+.User::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(../../../assets/img/icon-users.png) no-repeat;
+    margin-right: 10px;
+}
+
+.Settings::before {
+    content: "";
+    display: inline-block;
+    height: 22px;
+    width: 21px;
+    background: url(../../../assets/img/icon-settings.png) no-repeat;
+    margin-right: 10px;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    left: 0;
+    width: 10px;
+    background: #5584ff;
+}

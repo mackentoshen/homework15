@@ -1,0 +1,25 @@
+.AddProject {
+    position: relative;
+    width: 180px;
+    height: 50px;
+    background: #5584ff;
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    font: 700 18px/24px 'Roboto', sans-serif;
+    letter-spacing: .25px;
+    margin-right: 50px;
+    padding-left: 15px;
+}
+
+.AddProject::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url(../../../assets/img/icon-plus.png) no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+}

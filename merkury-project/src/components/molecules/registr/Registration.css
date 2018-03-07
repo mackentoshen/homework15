@@ -1,0 +1,27 @@
+.Registration-Wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.Registration-Title {
+    color: #8492af;
+    font-size: 38px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.Registration-Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Registration-Title span {
+    color: #5384ff;
+}
+
+.SnackBarStyle > div {
+    min-width: auto !important;
+}

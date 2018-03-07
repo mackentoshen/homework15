@@ -1,0 +1,50 @@
+.Authorization-Wrap {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../../assets/img/admin-bckgr.png") center center no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 139px rgba(147, 161, 185, 0.59);
+}
+
+.Authorization-Form {
+    max-width: 800px;
+    width: 100%;
+    background: #f6f7fa;
+}
+
+.Authorization-Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0e1a35;
+    min-height: 100px;
+    padding-left: 45px;
+    flex-wrap: wrap;
+}
+
+.Authorization-Loginin {
+    display: flex;
+}
+
+.Authorization-Loginin li {
+    padding: 0 50px;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+    color:#fff;
+}
+
+.Active::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 10px;
+    left: 0;
+    right: 0;
+    background: #5584ff;
+    top:49px;
+}
